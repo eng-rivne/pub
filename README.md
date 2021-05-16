@@ -12,6 +12,9 @@ You can click the Preview link to take a look at your changes.
 
 # pub
 
+git commit --allow-empty -m "trigger pages rebuild"
+git push
+
 https://eng-rivne.github.io/pub/
 
 https://eng-rivne.github.io/pub/muzeyni-hostyny-28-travnya-2017-u-rivnomu/index.html
