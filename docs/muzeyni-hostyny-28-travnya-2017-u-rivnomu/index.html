@@ -16,9 +16,49 @@
   <style type="text/css">
     html,
     body {
+      width: 100%;
       max-width: 100%;
+      min-width: 100%;
+      height: 100%;
       max-height: 100%;
+      min-height: 100%;
+      margin: 0;
+      box-sizing: border-box;
       background: #54806b;
+
+    }
+
+
+    *, :after, :before {
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+}
+    .column {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .row {
+      display: inline-flex;
+    }
+    .py {
+    padding: 1em 0;}
+    .w100 {
+      max-width: 100%;
+      min-width: 100%;
+    }
+
+    .w95 {
+      max-width: 95%;
+      min-width: 95%;
+    }
+
+    #nanogallery {
+      max-width: 100%;
+      min-width: 100%;
     }
   </style>
 
@@ -27,14 +67,21 @@
 <body>
 
 
-  <div style="padding: 0.2em;">
-    <div style="background: url(./img/bg.jpeg) no-repeat 0% 0% / contain;padding: 4.8em 0.8em 0.8em 0.8em;">
-      <div style="height: 105.4em;">
-        <div style="background: url(./img/title.svg) no-repeat 0% 0% / cover;height: 42em;"></div>
-      </div>
-      <div id="nanogallery" data-nanogallery2='{
+  <div class="column w100" style="padding: 0.2em;">
+    <div class="w100" style="height: 13em;">
+      <img src="./img/bg.jpeg" class="w100">
+     </div>
+    <div class="row column w100"
+      style="padding: 4.8em 0.8em 0.8em 0.8em;">
+      
+      <div class="row w95">
+        <img src="./img/title.svg" class="w100">
+       </div>
+      <div class="w95" id="nanogallery" data-nanogallery2='{
 
     "itemsBaseURL":    "./photos/mh28_2017_rv/",
+    "galleryDisplayMode": "rows",
+    "galleryMaxRows": 3,
     "thumbnailWidth": "auto",
     "thumbnailHeight": "200",
     "thumbnailLabel": {
@@ -46,7 +93,7 @@
     "gallerySorting": "random",
     "thumbnailOpenImage": false
     }'>
-
+        
          <a href = "Image_001.png"   data-ngThumb = "Image_001.png" > Image_001.png </a>
          <a href = "Image_003.png"   data-ngThumb = "Image_003.png" > Image_003.png </a>
          <a href = "Image_005.png"   data-ngThumb = "Image_005.png" > Image_005.png </a>
@@ -216,10 +263,14 @@
 
       </div>
     </div>
+
+    <div class="row w95 py">
+      <img src="./ads/next.23.travnya.2020.jpg" class="w100" ></div>
+    <div class="row w95 py">
+      <img src="./img/footer.jpg" class="w100" ></div>
+
   </div>
-  <div style="height: auto;">
-    <div style="background: url(./img/footer.jpg) no-repeat 0% 0% / cover;height: 43em;"></div>
-  </div>
+
   </div>
 </body>
 
