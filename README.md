@@ -12,11 +12,15 @@ You can click the Preview link to take a look at your changes.
 
 # pub
 
-git commit --allow-empty -m "trigger pages rebuild"
-git push
+``` bash
+    git commit --allow-empty -m "trigger pages rebuild"
+    git push
+```
 
-https://github.com/osbb-gr-44/pub/blob/master/docs/img/soc/viber/card/happyEaster.jpg
-https://osbb-gr-44.github.io/pub/img/soc/viber/card/happyEaster.jpg
+``` js
+  //  https://github.com/osbb-gr-44/pub/blob/master/docs/img/soc/viber/card/happyEaster.jpg
+  //  https://osbb-gr-44.github.io/pub/img/soc/viber/card/happyEaster.jpg
+```
 
 
 https://github.com/osbb-gr-44/pub
