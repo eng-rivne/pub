@@ -22,6 +22,7 @@
 /**/.ignore
 
 /**/*.vscode
+/**/*webpack
 
 # игнорировать все файлы в каталоге docs/video/data
 /pub/docs/video/data/
