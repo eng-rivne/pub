@@ -17,6 +17,7 @@
 **/.eslintrc.js
 # игнорировать все package.json файлы
 **/package.json
+**/package-lock.json
 
 # игнорировать все *.cmd файлы
 /**/*.cmd
