@@ -2,5 +2,11 @@
   "id": "{gen:id}",
   "t": "\"Virtual Insanity\" - Jamiroquai",
   "p": "https://eng-rivne.github.io/pub/data/video/hls/jamiroquai__virtual_insanity/poster.jpg",
+  "subtitles": {
+    "kind": "subtitles",
+    "label": "UA",
+    "srclang": "uk",
+    "src": "https://eng-rivne.github.io/pub/data/video/hls/jamiroquai__virtual_insanity/subtitles/sub.ua.vtt"
+  },
   "m3u8": "https://eng-rivne.github.io/pub/data/video/hls/jamiroquai__virtual_insanity/v.m3u8"
 }
