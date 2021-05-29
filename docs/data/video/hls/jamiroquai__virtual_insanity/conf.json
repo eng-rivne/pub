@@ -6,7 +6,8 @@
     "kind": "subtitles",
     "label": "UA",
     "srclang": "uk",
-    "src": "https://eng-rivne.github.io/pub/data/video/hls/jamiroquai__virtual_insanity/subtitles/sub.ua.vtt"
+    "src": "https://eng-rivne.github.io/pub/data/video/hls/jamiroquai__virtual_insanity/subtitles/sub.ua.vtt",
+    "default":true
   },
   "m3u8": "https://eng-rivne.github.io/pub/data/video/hls/jamiroquai__virtual_insanity/v.m3u8"
 }
